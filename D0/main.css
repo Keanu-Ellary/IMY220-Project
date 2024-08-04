@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url(./images/papyrus-dark.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.splash-container, .form-container {
+    text-align: center;
+    color: #fff;
+}
+
+.splash-content, .form-content {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.splash-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.splash-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ff7e5f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #feb47b;
+}
+
+.form-content h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 15px 30px;
+    background: #ff7e5f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #feb47b;
+}
+
+form p {
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background: #444;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background: #555;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background: #f4f4f4;
+    overflow-y: auto;
+}
+
+.user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.user-card h3 {
+    margin-bottom: 10px;
+}
+
+.user-card p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff7e5f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #feb47b;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile h2 {
+    margin-bottom: 20px;
+}
+
+#playlist
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.profile-edit {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-edit h2 {
+    margin-bottom: 20px;
+}
+
+.profile-edit form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-edit form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile-edit form button {
+    padding: 10px 20px;
+    background: #ff7e5f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.profile-edit form button:hover {
+    background: #feb47b;
+}
+
+.playlist {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.playlist h2 {
+    margin-bottom: 20px;
+}
+
+.song-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.song img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.song-info {
+    text-align: left;
+}
+
+.song-info h3 {
+    margin-bottom: 5px;
+}
+
+.song-info p {
+    color: #777;
+}

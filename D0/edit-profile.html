@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile - Playlist Creator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Playlist Creator</h2>
+        <ul>
+            <li><a href="main.html">Main Page</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="profile-edit">
+            <h2>Edit Profile</h2>
+            <form action="/update-profile" method="POST">
+                <input type="text" name="username" placeholder="Username" value="DunlopTires" required>
+                <input type="email" name="email" placeholder="Email" value="jack.dunlop@example.com" required>
+                <input type="text" name="preferred-music" placeholder="Preferred Music" value="Pop, Rap" required>
+                <button type="submit" class="btn">Save Changes</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
