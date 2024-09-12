@@ -1,0 +1,76 @@
+.playlist-preview {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.playlist-thumbnail img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.playlist-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.playlist-name {
+    font-size: 18px;
+    margin: 0;
+}
+
+.playlist-creator,
+.playlist-songs {
+    font-size: 14px;
+    color: #666;
+    margin: 2px 0;
+}
+
+.playlist-songs-preview {
+    margin-top: 10px;
+}
+
+.song {
+    margin-bottom: 10px; /* Add some spacing between songs */
+}
+
+.editBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer/hand icon */
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.editBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.createBtn
+{
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer/hand icon */
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.createBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

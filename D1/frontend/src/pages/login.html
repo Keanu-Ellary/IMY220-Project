@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register - Playlist Creator</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="form-container"> 
+        <div class="form-content">
+            <h2>Welcome Back!</h2>
+            <form action="/home.html" method="get">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit" class="btn"><a href="./home.html">Login</a></button>
+            </form>
+            <p>Don't have an account? <a href="#register" id="show-register">Register here</a></p>
+        </div>
+        <div class="form-content" id="register-form" style="display: none;">
+            <h2>Create an Account</h2>
+            <form action="/register" method="POST">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit" class="btn">Register</button>
+            </form>
+            <p>Already have an account? <a href="#login" id="show-login">Login here</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('show-register').addEventListener('click', function() {
+            document.querySelector('.form-content').style.display = 'none';
+            document.getElementById('register-form').style.display = 'block';
+        });
+
+        document.getElementById('show-login').addEventListener('click', function() {
+            document.querySelector('.form-content').style.display = 'block';
+            document.getElementById('register-form').style.display = 'none';
+        });
+    </script>
+    <script type="text/javascript" src="./bundle.js"></script>
+</body>
+</html>
