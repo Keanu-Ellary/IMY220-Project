@@ -10,3 +10,6 @@ docker build -t u22893459 .
 
 -Code to run Docker Image:
 docker run --name u22893459 -p 3005:3000 u22893459
+
+# Deliverable 2:
+-same codes for Deliverable 1
