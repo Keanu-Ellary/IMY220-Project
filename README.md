@@ -13,3 +13,8 @@ docker run --name u22893459 -p 3005:3000 u22893459
 
 # Deliverable 2:
 -same codes for Deliverable 1
+
+# Deliverable 3:
+-Running Docker Compose:
+docker-compose build --no-cache
+docker-compose up
