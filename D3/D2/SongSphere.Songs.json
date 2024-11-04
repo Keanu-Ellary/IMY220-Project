@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "66e4a59b6f8fc2f28fd8a4e1"
+  },
+  "title": "yes, and",
+  "artists": [
+    "Ariana Grande"
+  ],
+  "duration": "3:30",
+  "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Ariana_Grande_-_Yes%2C_And_cover_art.png",
+  "streams": 522036975,
+  "spotify_link": "https://open.spotify.com/track/5D34wRmbFS29AjtTOP2QJe?si=d467af7e543d4443"
+},
+{
+  "_id": {
+    "$oid": "66e4a5ef6f8fc2f28fd8a4e2"
+  },
+  "title": "Texas Hold 'em",
+  "artists": [
+    "Beyonce"
+  ],
+  "duration": "3:53",
+  "image": "https://media.pitchfork.com/photos/65ca28931c27b5c475223e2e/16:9/w_1280,c_limit/Beyonce-Texas-Hold-Em.jpg",
+  "streams": 525662551,
+  "spotify_link": "https://open.spotify.com/track/0Z7nGFVCLfixWctgePsRk9?si=172c5abd79a64889"
+},
+{
+  "_id": {
+    "$oid": "66e4a7416f8fc2f28fd8a4e4"
+  },
+  "title": "Houdini",
+  "artists": [
+    "Dua Lipa"
+  ],
+  "duration": "3:05",
+  "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Dua_Lipa_-_Houdini.png",
+  "streams": 601573360,
+  "spotify_link": "https://open.spotify.com/track/6D8y7Bck8h11byRY88Pt2z?si=b9f8d09ec7654afe"
+},
+{
+  "_id": {
+    "$oid": "66e4a7416f8fc2f28fd8a4e7"
+  },
+  "title": "Save Your Tears (Remix)",
+  "artists": [
+    "The Weeknd",
+    "Ariana Grande"
+  ],
+  "duration": "3:11",
+  "image": "https://i.scdn.co/image/ab67616d0000b273c6af5ffa661a365b77df6ef6",
+  "streams": 1630077311,
+  "spotify_link": "https://open.spotify.com/track/1oFAF1hdPOickyHgbuRjyX?si=8322c9eee23e4744"
+},
+{
+  "_id": {
+    "$oid": "66e4a7416f8fc2f28fd8a4e9"
+  },
+  "title": "Cruel Summer",
+  "artists": [
+    "Taylor Swift"
+  ],
+  "duration": "2:58",
+  "image": "https://i1.sndcdn.com/artworks-D3XnYXYQA1hzUmIj-HPvM7A-t500x500.jpg",
+  "streams": {
+    "$numberLong": "2449610108"
+  },
+  "spotify_link": "https://open.spotify.com/track/1BxfuPKGuaTgP7aM0Bbdwr?si=1ca915d0924743e5"
+},
+{
+  "_id": {
+    "$oid": "66e4a7416f8fc2f28fd8a4e3"
+  },
+  "title": "Die With a Smile",
+  "artists": [
+    "Lady Gaga",
+    "Bruno Mars"
+  ],
+  "duration": "4:11",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvhcYskQHOxAqogCcgaOSczW9D3l6Nd4riLQ&s",
+  "streams": 782205440,
+  "spotify_link": "https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe?si=465e52be68cc4b2f"
+},
+{
+  "_id": {
+    "$oid": "66e4a7416f8fc2f28fd8a4e5"
+  },
+  "title": "i like the way you kiss me",
+  "artists": [
+    "Artemas"
+  ],
+  "duration": "2:22",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Artemas_-_I_Like_the_Way_You_Kiss_Me.png/220px-Artemas_-_I_Like_the_Way_You_Kiss_Me.png",
+  "streams": 999670035,
+  "spotify_link": "https://open.spotify.com/track/2GxrNKugF82CnoRFbQfzPf?si=617c3fd8050e4b41"
+},
+{
+  "_id": {
+    "$oid": "66e4a7416f8fc2f28fd8a4ea"
+  },
+  "title": "the boy is mine",
+  "artists": [
+    "Ariana Grande"
+  ],
+  "duration": "2:53",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOBU2UAUztQXCptxEYsd1VhhlIBBfyzAKxg&s",
+  "streams": 303790366,
+  "spotify_link": "https://open.spotify.com/track/38JweSPC9JTirnqgFOchCM?si=7516a8cfa1dc4544"
+},
+{
+  "_id": {
+    "$oid": "66e4a7416f8fc2f28fd8a4e6"
+  },
+  "title": "we can't be friends (wait for your love)",
+  "artists": [
+    "Ariana Grande"
+  ],
+  "duration": "3:48",
+  "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/WeCantBeFriendsArianaGrande.png",
+  "streams": 990295522,
+  "spotify_link": "https://open.spotify.com/track/6FcKs2bVkEDRKZUF0szYgM?si=ff69bbbe985e4e9e"
+},
+{
+  "_id": {
+    "$oid": "66fbf2d0fbcfff5d084db6d8"
+  },
+  "title": "Dance The Night",
+  "artists": [
+    "Dua Lipa"
+  ],
+  "duration": "2:56",
+  "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Dua_Lipa_-_Dance_the_Night.png",
+  "streams": 959205379,
+  "spotify_link": "https://open.spotify.com/track/11C4y2Yz1XbHmaQwO06s9f?si=79e2e4e6a7d34087"
+},
+{
+  "_id": {
+    "$oid": "671fef64af13c8ecb3c96fc3"
+  },
+  "title": "Guess (ft Billie Eilish)",
+  "artists": [
+    "Charlie XCX, Billie Eilish"
+  ],
+  "duration": "2:23",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Charli_XCX_-_Guess_featuring_Billie_Eilish.png/220px-Charli_XCX_-_Guess_featuring_Billie_Eilish.png",
+  "streams": 293275537,
+  "spotify_link": "https://open.spotify.com/track/3WOhcATHxK2SLNeP5W3v1v?si=76b562cf0e414266"
+},
+{
+  "_id": {
+    "$oid": "671ff1073366e334fb94396c"
+  },
+  "title": "Sympathy is a knife featuring ariana grande",
+  "artists": [
+    "Charlie XCX, Ariana Grande"
+  ],
+  "duration": "2:34",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQewakvP2nGpE6keYRyKwbp13UV2qIDr5vcOw&s",
+  "streams": 27696416,
+  "spotify_link": "https://open.spotify.com/track/3nQ24dxqvxZEVwlHTeuLz0?si=cecff3fc75e8423f"
+}]

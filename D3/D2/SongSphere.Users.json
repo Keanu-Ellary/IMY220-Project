@@ -1,0 +1,271 @@
+[{
+  "_id": {
+    "$oid": "66f1904fd991aa22a3c5c6a5"
+  },
+  "name": "Jane",
+  "surname": "Smith",
+  "email": "jane.smith@example.com",
+  "password": "securepass456",
+  "playlist_id": [
+    {
+      "$oid": "66f1b4dcbbf639923162bbf6"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a4"
+    },
+    {
+      "$oid": "66ff471478aea27ea3749045"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a4"
+    }
+  ],
+  "username": "JazzJunkie",
+  "proPic": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+  "bio": "Passionate about jazz music and discovering new artists. When I'm not exploring local gigs, I'm curating my favorite playlists to share with fellow music lovers. I know that's right!!!",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66f1904fd991aa22a3c5c6a6"
+  },
+  "name": "Alice",
+  "surname": "Johnson",
+  "email": "alice.johnson@example.com",
+  "password": "alice789",
+  "playlist_id": [
+    {
+      "$oid": "66f1b4dcbbf639923162bbf7"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a4"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a4"
+    }
+  ],
+  "username": "EDMEnthusiast",
+  "proPic": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+  "bio": "EDM lover and festival-goer. I thrive on the beats and rhythms that make every moment electrifying. Join me on my musical journey through the world of electronic sounds!",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66f1904fd991aa22a3c5c6a4"
+  },
+  "name": "John",
+  "surname": "Doe",
+  "email": "john.doe@example.com",
+  "password": "JohnDoe@869594",
+  "playlist_id": [
+    {
+      "$oid": "6727e3ac03fedd2e17884948"
+    },
+    {
+      "$oid": "6727e3d203fedd2e17884949"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a5"
+    },
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a6"
+    },
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a7"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a5"
+    },
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a6"
+    }
+  ],
+  "username": "MelodyLover92",
+  "proPic": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+  "bio": "Avid music listener with a soft spot for melodies that touch the heart. I'm always on the lookout for new tunes to add to my ever-growing collection.",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66f1904fd991aa22a3c5c6a7"
+  },
+  "name": "Bob",
+  "surname": "Brown",
+  "email": "bob.brown@example.com",
+  "password": "bobpassword321",
+  "playlist_id": [
+    {
+      "$oid": "66f1b4dcbbf639923162bbf8"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "66f7202404627158b9c633b6"
+    },
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a8"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a4"
+    }
+  ],
+  "username": "PopPrincess",
+  "proPic": "https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg",
+  "bio": "Pop culture aficionado and a dedicated follower of the latest chart-toppers. I believe every great day deserves a catchy soundtrack!",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66f1904fd991aa22a3c5c6a8"
+  },
+  "name": "Charlie",
+  "surname": "Davis",
+  "email": "charlie.davis@example.com",
+  "password": "charliepass654",
+  "playlist_id": [
+    {
+      "$oid": "66f1b4dcbbf639923162bbf9"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "66f7206d04627158b9c633b8"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "66f7207e04627158b9c633b9"
+    },
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a7"
+    }
+  ],
+  "username": "IndieInsider",
+  "proPic": "https://cdn.vectorstock.com/i/500p/53/42/user-member-avatar-face-profile-icon-vector-22965342.jpg",
+  "bio": "Indie music enthusiast who loves discovering hidden gems and supporting up-and-coming artists. Let’s explore the eclectic sounds of the indie scene together!",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66ff471478aea27ea3749045"
+  },
+  "name": "Nelly",
+  "surname": "Melly",
+  "email": "nelMel@gmail.com",
+  "password": "noMaam@3344",
+  "playlist_id": [
+    {
+      "$oid": "67251fe98123282659d64aa8"
+    },
+    {
+      "$oid": "67278d3bc38a61094948e0d5"
+    }
+  ],
+  "followers": [],
+  "following": [
+    {
+      "$oid": "66f1904fd991aa22a3c5c6a5"
+    }
+  ],
+  "username": "NelMel",
+  "proPic": "https://img.freepik.com/premium-vector/hand-drawing-cartoon-girl-cute-girl-drawing-profile-picture_488586-692.jpg?w=360",
+  "bio": "Just a girl who loves to sing along to my favorite tracks. I enjoy mixing genres and creating playlists that reflect my diverse taste in music!",
+  "isAdmin": true
+},
+{
+  "_id": {
+    "$oid": "66ff87fa82f4b9dcd0823e75"
+  },
+  "name": "Grace",
+  "surname": "Hermez",
+  "email": "germs@gmail.com",
+  "password": "Password##22",
+  "playlist_id": [],
+  "followers": [],
+  "following": [],
+  "username": "Germz",
+  "bio": "A casual music lover who enjoys a good playlist for every mood. I'm here to share my thoughts and connect with others who appreciate the art of music.",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66ff9034a8d47a84c3d2f001"
+  },
+  "name": "Lily",
+  "surname": "Adams",
+  "email": "lily.adams@example.com",
+  "password": "lilySecure789",
+  "playlist_id": [],
+  "followers": [],
+  "following": [],
+  "username": "SoulSeeker",
+  "proPic": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+  "bio": "Always on the hunt for music that stirs the soul. From classic blues to modern jazz, I’m here to uncover songs that make you feel.",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66ff9034a8d47a84c3d2f002"
+  },
+  "name": "Tom",
+  "surname": "Williams",
+  "email": "tom.williams@example.com",
+  "password": "TomPass123",
+  "playlist_id": [],
+  "followers": [],
+  "following": [],
+  "username": "RockRebel",
+  "proPic": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+  "bio": "Rock enthusiast and lover of all things loud and rebellious. Follow me if you’re into powerful riffs and timeless anthems!",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "66ff9034a8d47a84c3d2f003"
+  },
+  "name": "Emma",
+  "surname": "Green",
+  "email": "emma.green@example.com",
+  "password": "emmaSecure456",
+  "playlist_id": [],
+  "followers": [],
+  "following": [],
+  "username": "CountryHeart",
+  "proPic": "https://cdn.vectorstock.com/i/500p/53/42/user-member-avatar-face-profile-icon-vector-22965342.jpg",
+  "bio": "Country music lover with a heart for storytelling. I'm all about those heartfelt lyrics and tunes that feel like home.",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "6727db9564e5609bb9272196"
+  },
+  "name": "James",
+  "surname": "Anderson",
+  "email": "james.anderson@example.com",
+  "password": "jamesSecure123@",
+  "playlist_id": [
+    {
+      "$oid": "6727e42103fedd2e1788494a"
+    }
+  ],
+  "followers": [],
+  "following": [],
+  "username": "BeatWizard",
+  "proPic": "https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg",
+  "bio": "Producer and beat enthusiast with a love for rhythm and groove. I’m here to share the magic of beats that get you moving!",
+  "isAdmin": true
+}]

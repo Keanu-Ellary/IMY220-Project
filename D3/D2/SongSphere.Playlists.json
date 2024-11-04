@@ -1,0 +1,295 @@
+[{
+  "_id": {
+    "$oid": "66f1b4dcbbf639923162bbf6"
+  },
+  "name": "Chill Vibes",
+  "creator": {
+    "$oid": "66f1904fd991aa22a3c5c6a5"
+  },
+  "numOfSongs": "30",
+  "genre": "Pop",
+  "imageUrl": "https://c8.alamy.com/zooms/9/fea52cd0567241618d28f3bbbe97e1aa/2h31w35.jpg",
+  "songs": [
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e4"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e5"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e6"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "66f1b2d4bbf639923162bbeb"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbec"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbed"
+    },
+    {
+      "$oid": "6724d03cd17ef5b3ecb75df5"
+    },
+    {
+      "$oid": "6724d0b7cba61a461aa23689"
+    },
+    {
+      "$oid": "6724d0f3a19b994b26241435"
+    },
+    {
+      "$oid": "6724d12f1871c0fe3c56aa9e"
+    },
+    {
+      "$oid": "6724d21541aa7b9c75a991cb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f1b4dcbbf639923162bbf9"
+  },
+  "name": "Sunday Chillz",
+  "creator": {
+    "$oid": "66f1904fd991aa22a3c5c6a8"
+  },
+  "numOfSongs": "30",
+  "genre": "R&B",
+  "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b67b94b7ff039fd815ba3f60",
+  "songs": [
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e5"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e6"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e7"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "66f1b2d4bbf639923162bbed"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbee"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbef"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f1b4dcbbf639923162bbf5"
+  },
+  "name": "Pop Perfection",
+  "creator": {
+    "$oid": "66f1904fd991aa22a3c5c6a4"
+  },
+  "numOfSongs": "20",
+  "genre": "Pop",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03kp5P4RYLbo9lIvu51RwCqhAjXjSRgzdww&s",
+  "songs": [
+    {
+      "$oid": "66e4a59b6f8fc2f28fd8a4e1"
+    },
+    {
+      "$oid": "66e4a5ef6f8fc2f28fd8a4e2"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e3"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "66f1b2d4bbf639923162bbe8"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbe9"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f1b4dcbbf639923162bbf8"
+  },
+  "name": "Saturday Night",
+  "creator": {
+    "$oid": "66f1904fd991aa22a3c5c6a7"
+  },
+  "numOfSongs": "35",
+  "genre": "Dance",
+  "imageUrl": "https://i1.sndcdn.com/artworks-YcK7bbgkMXX2Bs9D-mVRGAw-t500x500.jpg",
+  "songs": [
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e3"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e4"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e5"
+    },
+    {
+      "$oid": "66fbf2d0fbcfff5d084db6d8"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "66f1b2d4bbf639923162bbea"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbeb"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbec"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbed"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f1b4dcbbf639923162bbf7"
+  },
+  "name": "Workout Jams",
+  "creator": {
+    "$oid": "66f1904fd991aa22a3c5c6a6"
+  },
+  "numOfSongs": "15",
+  "genre": "Upbeat",
+  "imageUrl": "https://i.scdn.co/image/ab67616d0000b2734bb751566bb50ed57c72c66d",
+  "songs": [
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e7"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e9"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "66f1b2d4bbf639923162bbee"
+    },
+    {
+      "$oid": "66f1b2d4bbf639923162bbef"
+    },
+    {
+      "$oid": "672500ebfd2246fc625d946a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67251fe98123282659d64aa8"
+  },
+  "name": "Ariana's House",
+  "creator": {
+    "$oid": "66ff471478aea27ea3749045"
+  },
+  "numOfSongs": 5,
+  "genre": "Dance",
+  "imageUrl": "https://pbs.twimg.com/media/GDgTj1JWEAAEfas.jpg",
+  "songs": [
+    {
+      "$oid": "66e4a59b6f8fc2f28fd8a4e1"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e7"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4ea"
+    },
+    {
+      "$oid": "66e4a7416f8fc2f28fd8a4e6"
+    },
+    {
+      "$oid": "671ff1073366e334fb94396c"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "672528004b05ac27ff151f9c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67278d3bc38a61094948e0d5"
+  },
+  "name": "Another one (DJ Khaled not involved)",
+  "creator": {
+    "$oid": "66ff471478aea27ea3749045"
+  },
+  "numOfSongs": 0,
+  "genre": "R&B",
+  "imageUrl": "https://media.istockphoto.com/id/1337999001/vector/r-n-b-music-style-vector-handwritten-lettering.jpg?s=612x612&w=0&k=20&c=ETyBOt2gAH7TTpcAZIFVmrknMneYGIaJAjgET6ukY5I=",
+  "songs": [],
+  "comments": [
+    {
+      "$oid": "6727a67dd509984a6c4bf08a"
+    },
+    {
+      "$oid": "6727d35a710d36c8b8650bfb"
+    },
+    {
+      "$oid": "6727d57a89beed8f4ce72e4c"
+    },
+    {
+      "$oid": "6727d90e8fb9b927d4bcccce"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6727e3ac03fedd2e17884948"
+  },
+  "name": "My personal things",
+  "creator": {
+    "$oid": "66f1904fd991aa22a3c5c6a4"
+  },
+  "numOfSongs": 0,
+  "genre": "Dance",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDJCWPh-l6Hgh_JKoG_YbcvXXsh2_kHkNTUw&s",
+  "songs": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "6727e3d203fedd2e17884949"
+  },
+  "name": "Breathe",
+  "creator": {
+    "$oid": "66f1904fd991aa22a3c5c6a4"
+  },
+  "numOfSongs": 0,
+  "genre": "Jazz",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6hn79kO3fLqdm1QqEZ8VmYgCkzcMO8Y52Ew&s",
+  "songs": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "6727e42103fedd2e1788494a"
+  },
+  "name": "DANCE THE NIGHT AWAY",
+  "creator": {
+    "$oid": "6727db9564e5609bb9272196"
+  },
+  "numOfSongs": 1,
+  "genre": "Dance",
+  "imageUrl": "https://external-preview.redd.it/excited-to-share-this-dance-music-playlist-playlist-which-i-v0-0wyUKCkyE-BaLW1EleFAVTii0UFE587Ajq5R1_AXXLU.jpg?auto=webp&s=2cc277f3937875a59aa0031c84ee365e5793a1b8",
+  "songs": [
+    {
+      "$oid": "66fbf2d0fbcfff5d084db6d8"
+    }
+  ],
+  "comments": []
+}]

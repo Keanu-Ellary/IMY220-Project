@@ -1,0 +1,5 @@
+Keanu Ellary u22893459
+
+Running Docker Compose:
+docker-compose build --no-cache
+docker-compose up

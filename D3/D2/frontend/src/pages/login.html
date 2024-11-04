@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register - Playlist Creator</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="form-container bg-white rounded-lg shadow-lg p-8 w-96">
+        <div class="form-content" id="login-form">
+            <h2 class="text-2xl font-bold text-center mb-4">Welcome Back!</h2>
+            <form class="flex flex-col space-y-4">
+                <input type="email" name="email" placeholder="Email" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <input type="password" name="password" placeholder="Password" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <button type="submit" class="btn bg-blue-500 text-white font-bold py-2 rounded-lg hover:bg-blue-600 transition duration-200">Login</button>
+            </form>
+            <p class="text-center mt-4">Don't have an account? <a href="#register" id="show-register" class="text-blue-600 hover:underline">Register here</a></p>
+        </div>
+
+        <div class="form-content hidden" id="register-form">
+            <h2 class="text-2xl font-bold text-center mb-4">Create an Account</h2>
+            <form class="flex flex-col space-y-4">
+                <input type="text" name="name" placeholder="Name" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <input type="text" name="surname" placeholder="Surname" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <input type="text" name="username" placeholder="Username" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <input type="email" name="email" placeholder="Email" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <input type="password" name="password" placeholder="Password" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <input type="text" name="proPic" placeholder="Profile Picture" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <input type="text" name="bio" placeholder="Bio" class="border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800" required>
+                <button type="submit" class="btn bg-blue-500 text-white font-bold py-2 rounded-lg hover:bg-blue-600 transition duration-200">Register</button>
+            </form>
+            <p class="text-center mt-4">Already have an account? <a href="#login" id="show-login" class="text-blue-600 hover:underline">Login here</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('show-register').addEventListener('click', function(event) {
+            document.getElementById('login-form').classList.add('hidden');
+            document.getElementById('register-form').classList.remove('hidden');
+        });
+
+        document.getElementById('show-login').addEventListener('click', function(event) {
+            document.getElementById('register-form').classList.add('hidden');
+            document.getElementById('login-form').classList.remove('hidden');
+        })
+
+        document.getElementById('login-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const data = {
+                email: formData.get('email'),
+                password: formData.get('password')
+            };
+
+            try {
+                const response = await fetch('http://localhost:8000/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    alert(result.message);
+                    sessionStorage.setItem('userId', result.user._id);
+                    sessionStorage.setItem('isAdmin', result.user.isAdmin);
+
+                    window.location.href = './home.html';
+                } else {
+                    const error = await response.json();
+                    alert(error.message);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred during login.');
+            }
+        });
+
+        document.getElementById('register-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const data = {
+                name: formData.get('name'),
+                surname: formData.get('surname'),
+                username: formData.get('username'),
+                email: formData.get('email'),
+                password: formData.get('password'),
+                proPic : formData.get('proPic'),
+                bio : formData.get('bio')
+            };
+
+            try {
+                const response = await fetch('http://localhost:8000/signup', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    alert('Registration successful! You can now log in.');
+                    window.location.href = './login.html';
+                } else {
+                    const error = await response.json();
+                    alert(error.message);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred during registration.');
+            }
+        });
+    </script>
+    <script type="text/javascript" src="./bundle.js"></script>
+</body>
+</html>
